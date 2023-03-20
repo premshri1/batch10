@@ -1,0 +1,29 @@
+Pruv's & Priya@Pruvs-PC MINGW64 /d/AWS DevOps/Practice/GIT/3 - Clone Central repo/Batch 10/Batch10 (main)
+$ git log
+commit 11b0e76251441435556fa0de34337fc2f9bd5019 (HEAD -> main, origin/main, origin/HEAD)
+Author: Prudhvi Raj <prudhviraj@abc.com>
+Date:   Mon Mar 20 05:18:06 2023 +0000
+
+    Modified HTML File uploaded to Central/Repo
+
+commit 5fd3265cd7c319816e328c09d0a5d357d416202e
+Author: Prudhvi Raj <prudhviraj@abc.com>
+Date:   Mon Mar 20 05:14:58 2023 +0000
+
+    Modified files uploaded to Central/Repo
+
+commit d5f73092219ef7ab41b69060ccd5181d12589d39
+Author: Prudhvi Raj <prudhviraj@abc.com>
+Date:   Mon Mar 20 05:04:21 2023 +0000
+
+    Dir and Files moved to Local/Repo
+
+commit bb19df2a79526855672e7a6c8d283c138183cbb1
+Author: Prudhvi Raj <prudhviraj@abc.com>
+Date:   Mon Mar 20 04:59:30 2023 +0000
+
+    File Named Prudhvi Raj has modified
+
+commit 09231440f662836dc94e36faf8fee8e354f4c5cb
+Author: Prudhvi Raj <prudhviraj@abc.com>
+Date:   Mon Mar 20 04:55:34 2023 +0000
