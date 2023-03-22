@@ -1,0 +1,14 @@
+# take input from the user
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+# display the numbers before swapping
+print("Before swapping: num1 =", num1, "and num2 =", num2)
+
+# swap the values using a temporary variable
+temp = num1
+num1 = num2
+num2 = temp
+
+# display the numbers after swapping
+print("After swapping: num1 =", num1, "and num2 =", num2)
