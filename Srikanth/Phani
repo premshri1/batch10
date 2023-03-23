@@ -1,18 +1,26 @@
-import java.util.*;   
-class PalindromeExample2  
-{  
-   public static void main(String args[])  
-   {  
-      String original, reverse = ""; // Objects of String class  
-      Scanner in = new Scanner(System.in);   
-      System.out.println("Enter a string/number to check if it is a palindrome");  
-      original = in.nextLine();   
-      int length = original.length();   
-      for ( int i = length - 1; i >= 0; i-- )  
-         reverse = reverse + original.charAt(i);  
-      if (original.equals(reverse))  
-         System.out.println("Entered string/number is a palindrome.");  
-      else  
-         System.out.println("Entered string/number isn't a palindrome.");   
-   }  
-}  
+# Python3 program to find maximum
+# in arr[] of size n
+
+# python function to find maximum
+# in arr[] of size n
+
+
+def largest(arr, n):
+
+	# Initialize maximum element
+	max = arr[0]
+
+	# Traverse array elements from second
+	# and compare every element with
+	# current max
+	for i in range(1, n):
+		if arr[i] > max:
+			max = arr[i]
+	return max
+
+
+# Driver Code
+arr = [10, 324, 45, 90, 9808]
+n = len(arr)
+Ans = largest(arr, n)
+print("Largest in given array ", Ans)
