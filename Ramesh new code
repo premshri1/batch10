@@ -1,0 +1,21 @@
+ Random randomNamer = new Random();
+    String[] companyFirstNames = { "Alpine", "Bear", "Bull", "Cuckoo", "Delta", "Dragon", "Echo", "Fighter", "Giant", "H20", "Indo", "Jared", "Jason", "Kicker", "Lodge", "Little", "Manzo", "Mint", "Neighbour", "Nelson", "Ossuary", "Open", "Private", "Poor", "Quick", "Quiant", "Reach", "Rebel", "Space", "Spear", "Titus", "Trebble", "Underdog", "Upper", "Vital", "Vert", "White", "Whistle", "X's", "Yuri's", "Yogurt", "Zebra" };
+    String[] companySecondNames = { " Science", " Technology", " Arts", " Research", " Laboratory", " Lodging", " Woodworking", " Fashion", " Oil", " Trading", "  Investing" };
+    String[] companyLastNames = { " Limited", " Co.", " Corp.", " Corporation", " Ltd", " Institute", " Association", " Federation", " Firm" };
+
+    for (int i = 0; i < 5; i++) {
+        int chance = randomNamer.nextInt(100);
+        int firstIdx = randomNamer.nextInt(companyFirstNames.length);
+        int secondIdx = randomNamer.nextInt(companySecondNames.length);
+        int lastIdx = randomNamer.nextInt(companyLastNames.length);
+
+        String name = null;
+        if (chance <= 45) {
+            name = companyFirstNames[firstIdx] + companySecondNames[secondIdx] + companyLastNames[lastIdx];
+        } else if (chance <= 85) {
+            name = companyFirstNames[firstIdx] + companyLastNames[lastIdx];
+        } else {
+            name = companyFirstNames[firstIdx];
+        }
+        System.out.println(name);
+    }
